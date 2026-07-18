@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "widgets": [
+    {
+      "uri": "/agent-command-center",
+      "name": "Agent Command Center",
+      "description": "Premium five-agent orchestration dashboard for research, security, debate, governance, and synthesis.",
+      "examples": [
+        {
+          "name": "Weather and Security Inquiry",
+          "description": "Shows a coordinated multi-agent response for a mixed research and safety request",
+          "data": {
+            "status": "success",
+            "generatedAt": "2026-07-18T00:00:00.000Z",
+            "prompt": "Find weather info and evaluate if there is any malware risk.",
+            "context": "User wants a real-world, multi-agent decision workflow.",
+            "agents": [
+              {
+                "role": "Research Agent",
+                "status": "online",
+                "specialty": "Web lookup and evidence gathering",
+                "summary": "Research mode activated."
+              },
+              {
+                "role": "Security Agent",
+                "status": "online",
+                "specialty": "Threat, malware, and risk detection",
+                "summary": "Security triage prepared."
+              },
+              {
+                "role": "Debate Agent",
+                "status": "online",
+                "specialty": "Challenge assumptions and surface opposing views",
+                "summary": "Debate framing created."
+              },
+              {
+                "role": "Governance Agent",
+                "status": "online",
+                "specialty": "Voting, consensus, and decision framing",
+                "summary": "Governance logic assembled."
+              },
+              {
+                "role": "Synthesis Agent",
+                "status": "online",
+                "specialty": "Final strategy and executive action plan",
+                "summary": "Final synthesis prepared."
+              }
+            ]
+          }
+        }
+      ],
+      "tags": ["agents", "mcp", "orchestration", "dashboard", "premium"]
+    }
+  ],
+  "generatedAt": "2026-07-18T00:00:00.000Z"
+}
